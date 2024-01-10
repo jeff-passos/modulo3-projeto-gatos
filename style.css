@@ -1,0 +1,182 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+:root{
+--color-backgrounds: #065E7C;
+--color-text-p: #121214;
+--color-text-h: #202024;
+--color-base: #fff;
+}
+
+#app{
+    min-width: 43rem;
+    display: grid;    
+}
+
+
+
+header{
+    grid-template-columns: 1fr max-content 1fr;
+    min-width: 43.0rem;
+    margin: 0 auto;
+    background-color: var(--color-backgrounds);
+    display: flex;    
+    height: 7.2rem;
+    align-items: center;
+    gap: 2.55rem;
+    justify-content: space-between;
+    padding: 0 2.5rem
+}
+
+header .feet{
+    min-width: 4rem;
+    height: 4rem;
+    background-color: var(--color-base);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; 
+
+
+}
+
+form{
+    width: 100%;
+}
+
+.input-wrapper label{
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.input-wrapper input{
+    width: 100%;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.20);
+    padding: 12px 16px 12px 14px        
+}
+
+.input-wrapper input::placeholder{
+    color: var(--color-base);
+    font-size: 1.6rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+
+/*MAIN*/
+
+main{
+    margin: 0 auto;
+    width: 43.0rem
+    
+}
+
+.cat-img img{
+    width: 100%;
+    
+    
+}
+
+main h1{
+    width: 34.2rem;
+    font-size: 24px;
+}
+
+.container{
+    margin: 2.4rem;
+    width: 38.2rem;
+}
+
+main h1{
+    width: 34.2rem;
+    font-size: 24px;
+}
+
+main{
+    margin: 0 auto;
+}
+
+.icon{
+    display: flex;
+    gap: 1.2rem;    
+    margin: .8rem 0 3.1rem;
+}
+
+.icon img{
+    padding: 1.2rem;
+}
+
+
+.like{
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--color-backgrounds);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+main p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+article{
+    margin: 0 2.2rem;
+    width: 38.4rem;
+}
+
+article h1{
+    margin-bottom: 3.2rem;
+}
+
+
+article .articles{
+    display: flex;
+    margin-bottom: 3.2rem;
+    gap: 1.6rem;
+}
+
+.articles{
+    width: 38.2rem;
+}
+
+.articles h2{
+    margin-bottom: 1.3rem;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.articles-text{
+    flex-direction: column;
+}
+
+.articles p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%    
+}
+
+
+/*FOOTER*/
+
+
+footer{
+    width: 43.0rem;
+    background-color: var(--color-backgrounds);
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer p{
+    padding: 1.6rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-base);
+}
